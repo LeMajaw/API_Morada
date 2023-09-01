@@ -1,16 +1,17 @@
 ﻿using API_Morada.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace API_Morada.Context
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<IdentityUser>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
 
         }
 
-        public DbSet<Login> Login { get; set; }
         public DbSet<Morada> Morada { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
