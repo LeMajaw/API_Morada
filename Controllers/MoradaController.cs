@@ -1,5 +1,7 @@
 ﻿using API_Morada.Models;
 using API_Morada.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API_Morada.Controllers
