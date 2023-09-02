@@ -6,6 +6,7 @@ namespace API_Morada.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class MoradaController : ControllerBase
     {
         private IMoradaService _moradaService;
