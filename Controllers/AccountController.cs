@@ -64,7 +64,7 @@ namespace API_Morada.Controllers
             var claims = new[]
             {
                 new Claim("email", userInfo.Email),
-                new Claim("meuToken", "token do leoblanco"),
+                new Claim("meuToken", "token_do_leo_blanco"),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
             };
 
