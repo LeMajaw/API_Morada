@@ -40,6 +40,22 @@ namespace API_Morada.Services
             }
         }
 
+        public async Task<IEnumerable<Morada>> SearchMorada(string searchInput)
+        {
+            // Query your database based on the search input. 
+            // You can customize this query to match your entity structure.
+            return await _context.Morada
+                .Where(m =>
+                    m.morada.Contains(searchInput) ||
+                    m.codigoPostal.Contains(searchInput) ||
+                    m.rua.Contains(searchInput) ||
+                    m.freguesia.Contains(searchInput) ||
+                    m.concelho.Contains(searchInput) ||
+                    m.distrito.Contains(searchInput) ||
+                    m.pais.Contains(searchInput))
+                .ToListAsync();
+        }
+
         public async Task InsertMorada(Morada morada)
         {
             try

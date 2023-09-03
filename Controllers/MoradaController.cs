@@ -60,6 +60,28 @@ namespace API_Morada.Controllers
             }
         }
 
+        [HttpGet("searchInput")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult<IEnumerable<Morada>>> SearchMorada([FromQuery] string searchInput)
+        {
+            try
+            {
+                var morada = await _moradaService.SearchMorada(searchInput);
+
+                if (morada == null)
+                    return NotFound($"Não existe Morada correspondente a: {searchInput}.");
+
+                return Ok(morada);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    "Erro ao obter Moradas!");
+            }
+        }
+
         [HttpPost]
         public async Task<ActionResult> Insert(Morada morada)
         {
