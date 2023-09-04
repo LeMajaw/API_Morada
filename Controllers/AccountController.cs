@@ -6,6 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using System.Web.Http.Cors;
 
 namespace API_Morada.Controllers
 {
@@ -43,6 +44,7 @@ namespace API_Morada.Controllers
                 return BadRequest(ModelState);
             }
         }
+
         [HttpPost("LoginUser")]
         public async Task<ActionResult<UserToken>> LoginUser([FromBody] LoginModel userInfo)
         {
