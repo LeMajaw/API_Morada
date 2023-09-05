@@ -90,6 +90,10 @@ C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\API_Morada.p
 C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\Azure.Core.dll
 C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\Azure.Identity.dll
 C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\Humanizer.dll
+C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\System.Web.Cors.dll
+C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\System.Net.Http.Formatting.dll
+C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\System.Web.Http.dll
+C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\System.Web.Http.Cors.dll
 C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -118,6 +122,8 @@ C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\Microsoft.Op
 C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
 C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
 C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -163,9 +169,3 @@ C:\Users\VGDesenvolvimento\source\repos\API_Morada\obj\Debug\net7.0\refint\API_M
 C:\Users\VGDesenvolvimento\source\repos\API_Morada\obj\Debug\net7.0\API_Morada.pdb
 C:\Users\VGDesenvolvimento\source\repos\API_Morada\obj\Debug\net7.0\API_Morada.genruntimeconfig.cache
 C:\Users\VGDesenvolvimento\source\repos\API_Morada\obj\Debug\net7.0\ref\API_Morada.dll
-C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\System.Web.Cors.dll
-C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\System.Net.Http.Formatting.dll
-C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\System.Web.Http.dll
-C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\System.Web.Http.Cors.dll
-C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\Newtonsoft.Json.dll
-C:\Users\VGDesenvolvimento\source\repos\API_Morada\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll

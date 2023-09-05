@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace API_Morada.Migrations
 {
     /// <inheritdoc />
-    public partial class InicialIdentiy : Migration
+    public partial class InicialIdendity : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -41,7 +41,7 @@ namespace API_Morada.Migrations
                     PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     PhoneNumberConfirmed = table.Column<bool>(type: "bit", nullable: false),
                     TwoFactorEnabled = table.Column<bool>(type: "bit", nullable: false),
-                    LockoutEnd = table.Column<DateTime>(type: "datetime", nullable: true),
+                    LockoutEnd = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: true),
                     LockoutEnabled = table.Column<bool>(type: "bit", nullable: false),
                     AccessFailedCount = table.Column<int>(type: "int", nullable: false)
                 },
@@ -50,24 +50,24 @@ namespace API_Morada.Migrations
                     table.PrimaryKey("PK_AspNetUsers", x => x.Id);
                 });
 
-            //migrationBuilder.CreateTable(
-            //    name: "Morada",
-            //    columns: table => new
-            //    {
-            //        id = table.Column<int>(type: "int", nullable: false)
-            //            .Annotation("SqlServer:Identity", "1, 1"),
-            //        morada = table.Column<string>(type: "nvarchar(max)", nullable: false),
-            //        codigoPostal = table.Column<string>(type: "nvarchar(max)", nullable: false),
-            //        rua = table.Column<string>(type: "nvarchar(max)", nullable: false),
-            //        freguesia = table.Column<string>(type: "nvarchar(max)", nullable: false),
-            //        concelho = table.Column<string>(type: "nvarchar(max)", nullable: false),
-            //        distrito = table.Column<string>(type: "nvarchar(max)", nullable: false),
-            //        pais = table.Column<string>(type: "nvarchar(max)", nullable: false)
-            //    },
-            //    constraints: table =>
-            //    {
-            //        table.PrimaryKey("PK_Morada", x => x.id);
-            //    });
+            migrationBuilder.CreateTable(
+                name: "Morada",
+                columns: table => new
+                {
+                    id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    morada = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    codigoPostal = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    rua = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    freguesia = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    concelho = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    distrito = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    pais = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Morada", x => x.id);
+                });
 
             migrationBuilder.CreateTable(
                 name: "AspNetRoleClaims",
@@ -233,8 +233,8 @@ namespace API_Morada.Migrations
             migrationBuilder.DropTable(
                 name: "AspNetUserTokens");
 
-            //migrationBuilder.DropTable(
-            //    name: "Morada");
+            migrationBuilder.DropTable(
+                name: "Morada");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");

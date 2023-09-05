@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\VGDesenvolvimento\\source\\repos\\API_Morada\\API_Morada.csproj": {}
+    "C:\\Users\\VGDesenvolvimento\\source\\repos\\API_Morada\\API_Morada.csproj": {}
   },
   "projects": {
-    "c:\\Users\\VGDesenvolvimento\\source\\repos\\API_Morada\\API_Morada.csproj": {
+    "C:\\Users\\VGDesenvolvimento\\source\\repos\\API_Morada\\API_Morada.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\VGDesenvolvimento\\source\\repos\\API_Morada\\API_Morada.csproj",
+        "projectUniqueName": "C:\\Users\\VGDesenvolvimento\\source\\repos\\API_Morada\\API_Morada.csproj",
         "projectName": "API_Morada",
-        "projectPath": "c:\\Users\\VGDesenvolvimento\\source\\repos\\API_Morada\\API_Morada.csproj",
+        "projectPath": "C:\\Users\\VGDesenvolvimento\\source\\repos\\API_Morada\\API_Morada.csproj",
         "packagesPath": "C:\\Users\\VGDesenvolvimento\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\VGDesenvolvimento\\source\\repos\\API_Morada\\obj\\",
+        "outputPath": "C:\\Users\\VGDesenvolvimento\\source\\repos\\API_Morada\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\VGDesenvolvimento\\AppData\\Roaming\\NuGet\\NuGet.Config",

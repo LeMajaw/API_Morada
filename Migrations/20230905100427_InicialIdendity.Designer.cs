@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API_Morada.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230904154951_InicialIdentiy")]
-    partial class InicialIdentiy
+    [Migration("20230905100427_InicialIdendity")]
+    partial class InicialIdendity
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
